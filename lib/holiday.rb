@@ -1,5 +1,4 @@
 
-require "awesome_print"
 
 holiday_supplies = {
   :winter => {
@@ -64,7 +63,7 @@ end
 # add_new_holiday_with_supplies(holiday_supplies, :fall, :Holloween, ["Candy Corn", "Ghost"])
 # ap holiday_supplies
 
-###########################################################################################
+##########################################################################
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
@@ -80,7 +79,7 @@ end
 
 # pp all_winter_holiday_supplies(holiday_supplies)
 
-############################################################################################
+##########################################################################
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
@@ -111,7 +110,7 @@ end
 
 # all_supplies_in_holidays(holiday_supplies)
 
-###########################################################################################
+##########################################################################
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists include the string "BBQ"
